@@ -1,0 +1,55 @@
+body{
+    background-color: #e8bab2;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+header img{
+    width: 370px;
+    height: 192px;
+   
+    position: absolute;
+    right: 0px;
+    padding-right: 50px;
+}
+header div{
+    position: relative;
+    top:17%;
+    display: inline;
+}
+article {
+
+    width: 880px;
+    margin-left: 50%;
+    transform:translate(-50%);
+    background-color: white;
+   border-radius: 5px;
+   position: relative;
+    margin-bottom: 55px;
+}
+article img{
+    margin: auto;
+    transform: scale(0.7);
+}
+article iframe{
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+footer{
+    height: 50px;
+    background-color: #090909;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px
+}
+footer p{
+    text-align: right;
+    padding-right: 30px;
+}
+footer span{
+    color: blue;
+}
